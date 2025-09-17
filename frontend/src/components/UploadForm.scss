@@ -1,0 +1,28 @@
+.form-list{
+    display : flex;
+    gap:1.2rem;
+    align-items:center;
+    border: .1rem solid var(--border);
+    padding : 1.4rem;
+    margin : 2rem 0 ;
+    border-radius: 1.2rem;
+    >*{
+        border-radius: .5rem;
+        padding : 1rem;
+    }
+
+    input[types="text"]{
+        flex:1;
+        border: .1rem;
+        font-size : 1.4rem;
+    }
+    .file-btn,
+    .upload-btn{
+        min-width : 10rem;
+    }    
+    .file-btn::file-selector-button {
+        padding : 1rem;
+        border : none;
+        border-radius: .5rem;
+    }
+}
